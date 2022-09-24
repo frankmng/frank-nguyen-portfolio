@@ -29,7 +29,7 @@ header h1 {
     flex: 0 0 275px;
     justify-content:end;
     margin: 5px 0;
-    padding: 0 10px;
+    padding: 4px 10px;
 }
 
 h1 {
@@ -63,5 +63,33 @@ header, main {
 /* resize height of flex item once page is resized */
 header h1 { 
     flex: auto;
+    }
+/* center nav item elements once page is resized*/
+nav ul  {
+        justify-content: center;
+    }
 }
+
+.hero {
+    background-image: url("../images/colorful-abstract-background.jpg");
+    display: flex;
+    flex-direction: column;
+    min-height: 15em;
+    height: 50%;
+    align-self: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-text {
+    display: flex;
+    color:#31343C;
+    flex-direction: column-reverse;
+    align-self: flex-end;
+    margin: 100px 75px 20px 0;
+    background-color: #9ECACC;
+    padding: 14px;
 }
