@@ -20,7 +20,7 @@ body {
 ul {
     list-style: none;
 } 
-
+/* Header style */
 header {
     display: flex;
     justify-content: space-between;
@@ -29,7 +29,7 @@ header {
     background-color: #31343C;
     color: var(--main-color);
 }
-
+/* Style h1 in header */
 header h1 { 
     background-color: #9ECACC;
     color: #31343C;
@@ -43,7 +43,7 @@ header h1 {
 h1 {
     font-size: 200%;
 }
-
+/* below styles to give the nav flex, margin, and padding */
 nav {
     padding: 20px 75px;
 }
@@ -63,6 +63,7 @@ nav li {
     margin:0 10px;
 }
 
+/* style to make header and main into column when screen size is reduced to 768px */
 
 @media screen and (max-width: 768px) {
 header, main {
@@ -93,7 +94,7 @@ nav ul  {
     align-items: center;
     justify-content: center;
 }
-
+/* style for hero text */
 .hero-text {
     display: flex;
     color:#31343C;
@@ -114,6 +115,7 @@ article {
     margin: 3% 75px;
     
   }
+ /* style to give the sub heading column*/ 
 .subheading {
     display: flex;
     padding-right: 20px;
@@ -127,6 +129,8 @@ article {
     color: #31343C;
     border-right: 4px solid #31343C;
 }
+ /* style to give the sub text */ 
+
 .subtext {
     display: flex;
     flex-direction: column;
@@ -150,6 +154,7 @@ article p {
   flex-wrap: wrap;
 }
 
+/* container for image box*/
 .image {
   display: flex;
   font-family: "Open Sans", Arial;
@@ -165,6 +170,7 @@ article p {
   width: 100%;
   
 }
+/* Make the first image child bigger then the following childs */
 .image img:first-child {
     width: 100%;
     object-fit: cover;
@@ -179,7 +185,6 @@ article p {
     min-width: 475px;
     max-height:300px;
 }
-
 .image-text {
     display: flex;
     align-self: flex-end;
@@ -189,15 +194,16 @@ article p {
     background-color: var(--main-color);
     padding:10px 20px;
     margin-bottom: 40px;
-    color:#31343C;
 }
 .image-text a {
+    color:#31343C;
     text-decoration: none;
 }
 /* End Work section */
 
 
 /* Start contact me section*/
+
 .contact-me {
     display: flex;
     flex-direction: row;
@@ -205,12 +211,14 @@ article p {
     align-self: center;
 
 }
+/* style for the contact me list to appear flex and in a row*/
 .contact-me ul {
     text-decoration: none;
     display: flex;
     flex-direction: row;
 
 }
+/* style to give the list elements a border bottom, padding, and margin */
 .contact-me ul li{
     border-bottom: 4px solid #2a2d38;
     color:#31343C;
