@@ -165,6 +165,11 @@ article p {
   padding: 10px;
   margin: 12px;
 }
+/* add a background overlay on hover over the images */
+.image:hover{
+    background: linear-gradient(#e66465, #9198e5);
+    opacity: 0.8;
+}
 
 .image:first-child {
   width: 100%;
@@ -198,6 +203,9 @@ article p {
 .image-text a {
     color:#31343C;
     text-decoration: none;
+}
+img:hover {
+    background-color: rgba(0,0,0,0.5); /* Black background with opacity */
 }
 /* End Work section */
 
