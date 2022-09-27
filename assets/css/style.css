@@ -1,3 +1,8 @@
+:root {
+    --main-color: #9ECACC;
+    --pane-padding: 5px 42px;
+  }
+  
 * {
     margin: 0;
     padding: 0;
@@ -22,7 +27,7 @@ header {
     align-items: center;
     flex-direction: row;
     background-color: #31343C;
-    color: #9ECACC;
+    color: var(--main-color);
 }
 
 header h1 { 
@@ -49,11 +54,11 @@ nav ul {
 }
 
 nav a {
-    color: #9ECACC;
+    color: var(--main-color);
     text-decoration: none;
 }
 nav li {
-    border-bottom: 4px solid #9ECACC;
+    border-bottom: 4px solid var(--main-color);
     padding:0 8px;
     margin:0 10px;
 }
@@ -95,7 +100,7 @@ nav ul  {
     flex-direction: column-reverse;
     align-self: flex-end;
     margin: 100px 75px 20px 0;
-    background-color: #9ECACC;
+    background-color: var(--main-color);
     padding: 14px;
 }
 /* End Hero */
@@ -130,7 +135,6 @@ article {
     margin-left: 10px;
 
 }
-
 article p {
     font-size: 110%;
     margin-bottom: 20px;
@@ -152,7 +156,7 @@ article p {
   font-size: 20px;
   color: #FFF;
   text-align: center;
-  background: #9ECACC;
+  background: var(--main-color);
   padding: 10px;
   margin: 12px;
 }
@@ -182,15 +186,45 @@ article p {
     text-align: left;
     position: absolute;
     flex-direction: column;
-    background-color: #9ECACC;
+    background-color: var(--main-color);
     padding:10px 20px;
     margin-bottom: 40px;
     color:#31343C;
 }
-
+.image-text a {
+    text-decoration: none;
+}
 /* End Work section */
 
 
+/* Start contact me section*/
+.contact-me {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    align-self: center;
+
+}
+.contact-me ul {
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+
+}
+.contact-me ul li{
+    border-bottom: 4px solid #2a2d38;
+    color:#31343C;
+    padding: 0 8px 5px 8px;
+    margin: 0 40px;
+}
+.contact-me a {
+    color:#31343C;
+    text-decoration: none;
+}
+/* End contact me section*/
+
+
+/* style the article, subheading, subtext context when screen size is reduced to 768px */
 @media screen and (max-width: 768px) {
     article {
         flex-direction: column;
