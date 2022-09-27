@@ -1,6 +1,6 @@
-# Horiseon-Social-Solution
+# Frank Nguyen Portfolio
 
-![horiseon image](https://raw.githubusercontent.com/frankmng/Horiseon-Social-Solution/main/assets/images/frank-nguyen-portfolio-cutoff.png)
+![frank nguyen portfolio](https://raw.githubusercontent.com/frankmng/frank-nguyen-portfolio/main/assets/images/frank-nguyen-portfolio-cutoff.png)
 
 ## Description
 
