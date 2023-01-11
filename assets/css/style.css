@@ -161,8 +161,7 @@ article p {
   font-size: 20px;
   color: #FFF;
   text-align: center;
-  background: var(--main-color);
-  padding: 10px;
+  border: 4px solid black;  
   margin: 12px;
 }
 
@@ -188,16 +187,17 @@ article p {
 .image-text {
     display: flex;
     align-self: flex-end;
+    justify-content: space-between;
     text-align: left;
     position: absolute;
-    flex-direction: column;
+    flex-direction: row;
     background-color: var(--main-color);
-    padding:10px 20px;
-    margin-bottom: 40px;
+    padding:15px 15px 0px 15px;
 }
 .image-text a {
-    color:#31343C;
+    color:#000;
     text-decoration: none;
+    font-size: 16px;
 }
 /* End Work section */
 
